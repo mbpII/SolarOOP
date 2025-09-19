@@ -11,7 +11,7 @@ This Java project models a solar system using object-oriented principles and the
 ## Usage
 
 In Main.java:
-`
+```
 CelestialBody pluto = new CelestialBody();
 pluto.setMass(1.309);
 
@@ -23,7 +23,7 @@ List<CelestialBody> system = new StarSystem.StarSystemBuilder()
 
 double totalMass = StarSystem.getMass();
 System.out.println(pluto.isPlanet(totalMass));
-`
+```
 ## Notes
 
 • Masses are in arbitrary units (e.g., Earth masses).
